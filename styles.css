@@ -1,6 +1,13 @@
-.box {
-    background: blue;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 2px;
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: peru;
+    color: white;
 }
