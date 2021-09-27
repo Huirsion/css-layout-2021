@@ -1,8 +1,10 @@
 body{
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* Main Axis */
+    justify-content: space-around;
+    /* Cross Axis */
+    align-items: center; 
 }
 
 .box{
