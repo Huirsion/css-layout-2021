@@ -1,14 +1,14 @@
 .parent{
-    height: 100vh;
     display: flex;
+    flex-direction: row;
     /* Main Axis */
     justify-content: space-around;
     align-content: space-around;
+    height: 100vh;
 }
 
 .child{
-    width: 300px;
-    height: 200px;
+    flex-basis: 30%;
     background: peru;
     color: white;
     font-size: 50px;
@@ -19,4 +19,5 @@
 
 .child:nth-child(2){
     background: black;
+    flex-grow: 0;
 }
